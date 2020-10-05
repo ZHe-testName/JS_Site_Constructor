@@ -1,0 +1,23 @@
+{
+  "name": "js_site_constructor",
+  "version": "1.0.0",
+  "description": "js constructor",
+  "main": "./src/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZHe-testName/JS_Site_Constructor.git"
+  },
+  "author": "Evgen Hor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZHe-testName/JS_Site_Constructor/issues"
+  },
+  "homepage": "https://github.com/ZHe-testName/JS_Site_Constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
